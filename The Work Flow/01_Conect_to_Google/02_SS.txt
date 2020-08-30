@@ -1,0 +1,9 @@
+服务器地址 = 35.194.211.201
+
+服务器端口 = 45678
+
+密码 = builtupchina
+
+加密协议 = chacha20-ietf-poly1305
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpidWlsdHVwY2hpbmFAMzUuMTk0LjIxMS4yMDE6NDU2Nzg=#233boy_ss_35.194.211.201
