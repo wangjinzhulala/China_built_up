@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[2]:
 
 
 import ee
@@ -26,7 +26,7 @@ import geemap
 
 
 
-# In[4]:
+# In[3]:
 
 
 ee.Initialize()
@@ -38,7 +38,7 @@ ee.Initialize()
 
 
 
-# In[58]:
+# In[7]:
 
 
 class Make_Fourier:
@@ -64,28 +64,29 @@ class Make_Fourier:
     
     
     #____________OUT_PUT______________
-    
+
     # get the Fourier img. the Fourier img has been converted to integer
     # by -->multiply(1000).toInt16()
     Fourier_img = test.harmonicTrendCoefficients
-    
+
     # get the Residule img.the Residule_img img has been converted to integer
     # by -->multiply(1000).toInt16()
     Residule_img = test.harmonicTrendResidule
-    
+
     # get discrete original/fitted Normalized value. The value has been scaled 
     # by 1000
     # for example
     Original_NDVI_series = test.harmonicLandsat.select(['NDVI'])
     Fitted_NDVI_series   = test.fittedHarmonic['NDVI']
-    
+
     # get the amplitude_phase img. The value has been scaled 
     # by 1000
-    Amplitude_Phase_img = test.Amplitude_Phas['NDVI']
+    Amplitude_Phase_img = test.Amplitude_Phase_img
     ____________________________________________________________________________________
     '''    
    
-    def __init__(self,start_date,end_date,area,harmonics = 3,Normalized_Index = ['NDVI','NDBI','EVI']):
+    def __init__(self,start_date,end_date,area = ee.FeatureCollection("users/wangjinzhulala/North_China_Plain_Python/Boundary_shp/North_China_Plain_Boundary"),
+                 harmonics = 3,Normalized_Index = ['NDVI','NDBI','EVI']):
 
         self.harmonics = harmonics        
         year_name = start_date[:4] + '_' + end_date[:4]
@@ -193,7 +194,7 @@ class Make_Fourier:
         residule_list = []
         
         fittedHarmonic_dict = {}
-        Amplitude_Phase = {}
+        Amplitude_Phase = []
 
         for idx in self.Normalized_Index:
 
@@ -256,7 +257,7 @@ class Make_Fourier:
                                    [harmonicTrendCoefficients.select(f'{idx}_constant')] + 
                                    [harmonicTrendCoefficients.select(f'{idx}_t')]).multiply(1000).toInt16()
  
-            Amplitude_Phase[idx] = amp_phs_img
+            Amplitude_Phase.extend([amp_phs_img])
     
     
         #_____________________Step_5_Store_result_to_class_attributes__________________________   
@@ -267,19 +268,7 @@ class Make_Fourier:
         
         # store thefitted and amp_phs img to dict
         self.fittedHarmonic            = fittedHarmonic_dict
-        self.Amplitude_Phase           = Amplitude_Phase
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+        self.Amplitude_Phase_img       = ee.Image(Amplitude_Phase)
 
 
 # In[ ]:
