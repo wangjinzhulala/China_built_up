@@ -41,7 +41,7 @@ ee.Initialize()
 
 
 
-# In[37]:
+# In[9]:
 
 
 class Temporal_consistency_check:
@@ -148,7 +148,8 @@ class Temporal_consistency_check:
 
             # multiply each classified_sum_img with check_weight 
             # and sum 3-periods together
-            sum_tif = ee.ImageCollection([i[0].multiply(i[1]) for i in img_multiply]).sum()
+            sum_tif = ee.ImageCollection([ee.Image(i[0].multiply(i[1])).toInt() 
+                                          for i in img_multiply]).sum()
 
             # thoes pixel that GREATE THAN OR EQUALS are built-up pixel
             temporal_checked = sum_tif.gte(self.Check_threshold)
@@ -160,7 +161,8 @@ class Temporal_consistency_check:
             # remap the img,so the pixel value changed (built-->0; non-built -->weight)
                                                                     # here need to rename other wise bandname changed to 'remap'
                                                                     # which will cause error to add with forward imgs
-            backward_remap    = [i[0].remap([0,1],[i[1],0]).rename('classification') for i in img_multiply]
+            backward_remap    = [i[0].remap([0,1],[i[1],0]).rename('classification').toInt() 
+                                 for i in img_multiply]
 
             # sum the back_remap and the those pixels with value GREATE THAN OR EQUALS the threshold is "Non-Built"
             non_built = ee.ImageCollection(backward_remap).sum().gte(self.Check_threshold)
