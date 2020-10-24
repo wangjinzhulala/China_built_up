@@ -5,43 +5,10 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -205,50 +172,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2413,95.94433399602386
+})",1724,1634,94.77958236658934
 1990_1992,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -412,50 +346,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2432,96.69980119284294
+})",1724,1647,95.53364269141531
 1990_1992,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -619,50 +520,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2443,97.13717693836979
+})",1724,1657,96.11368909512761
 1990_1992,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -826,50 +694,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2453,97.53479125248509
+})",1724,1664,96.51972157772622
 1990_1992,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -1033,50 +868,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2460,97.8131212723658
+})",1724,1668,96.75174013921114
 1990_1992,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -1240,50 +1042,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2468,98.13121272365805
+})",1724,1669,96.80974477958236
 1990_1992,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -1447,50 +1216,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2460,97.8131212723658
+})",1724,1657,96.11368909512761
 1990_1992,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -1654,50 +1390,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2446,97.25646123260438
+})",1724,1643,95.30162412993039
 1990_1992,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -1861,50 +1564,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2436,96.85884691848906
+})",1724,1623,94.1415313225058
 1990_1992,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1990_1992""
             }
           }
         }
@@ -2068,50 +1738,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2422,96.30218687872764
+})",1724,1605,93.09744779582367
 1993_1995,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -2275,50 +1912,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2422,96.30218687872764
+})",1664,1595,95.85336538461539
 1993_1995,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -2482,50 +2086,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2442,97.09741550695826
+})",1664,1604,96.39423076923077
 1993_1995,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -2689,50 +2260,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2458,97.73359840954274
+})",1664,1615,97.05528846153845
 1993_1995,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -2896,50 +2434,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2462,97.89264413518886
+})",1664,1621,97.41586538461539
 1993_1995,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -3103,50 +2608,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2466,98.05168986083498
+})",1664,1622,97.47596153846155
 1993_1995,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -3310,50 +2782,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2466,98.05168986083498
+})",1664,1617,97.17548076923077
 1993_1995,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -3517,50 +2956,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2460,97.8131212723658
+})",1664,1605,96.45432692307693
 1993_1995,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -3724,50 +3130,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2442,97.09741550695826
+})",1664,1587,95.37259615384616
 1993_1995,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -3931,50 +3304,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2415,96.02385685884693
+})",1664,1559,93.68990384615384
 1993_1995,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1993_1995""
             }
           }
         }
@@ -4138,50 +3478,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2402,95.50695825049702
+})",1664,1538,92.42788461538461
 1996_1998,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -4345,50 +3652,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2421,96.2624254473161
+})",1384,1304,94.21965317919076
 1996_1998,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -4552,50 +3826,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2437,96.8986083499006
+})",1384,1323,95.59248554913295
 1996_1998,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -4759,50 +4000,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2449,97.37574552683897
+})",1384,1331,96.17052023121387
 1996_1998,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -4966,50 +4174,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2462,97.89264413518886
+})",1384,1340,96.82080924855492
 1996_1998,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -5173,50 +4348,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2465,98.01192842942345
+})",1384,1341,96.89306358381504
 1996_1998,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -5380,50 +4522,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2463,97.9324055666004
+})",1384,1340,96.82080924855492
 1996_1998,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -5587,50 +4696,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2451,97.45526838966202
+})",1384,1332,96.24277456647398
 1996_1998,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -5794,50 +4870,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2430,96.62027833001989
+})",1384,1315,95.01445086705202
 1996_1998,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -6001,50 +5044,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2412,95.90457256461232
+})",1384,1302,94.07514450867052
 1996_1998,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1996_1998""
             }
           }
         }
@@ -6208,50 +5218,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2391,95.06958250497017
+})",1384,1281,92.55780346820809
 1999_2001,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -6415,50 +5392,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2423,96.34194831013917
+})",1260,1189,94.36507936507937
 1999_2001,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -6622,50 +5566,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2444,97.17693836978131
+})",1260,1200,95.23809523809523
 1999_2001,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -6829,50 +5740,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2451,97.45526838966202
+})",1260,1206,95.71428571428572
 1999_2001,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -7036,50 +5914,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2460,97.8131212723658
+})",1260,1214,96.34920634920636
 1999_2001,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -7243,50 +6088,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2465,98.01192842942345
+})",1260,1215,96.42857142857143
 1999_2001,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -7450,50 +6262,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2468,98.13121272365805
+})",1260,1207,95.7936507936508
 1999_2001,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -7657,50 +6436,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2457,97.69383697813122
+})",1260,1205,95.63492063492063
 1999_2001,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -7864,50 +6610,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2436,96.85884691848906
+})",1260,1183,93.88888888888889
 1999_2001,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -8071,50 +6784,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2419,96.18290258449305
+})",1260,1160,92.06349206349206
 1999_2001,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_1999_2001""
             }
           }
         }
@@ -8278,50 +6958,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2401,95.46719681908549
+})",1260,1144,90.7936507936508
 2002_2004,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -8485,50 +7132,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2442,97.09741550695826
+})",1710,1646,96.25730994152046
 2002_2004,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -8692,50 +7306,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2454,97.57455268389663
+})",1710,1648,96.37426900584796
 2002_2004,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -8899,50 +7480,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2461,97.85288270377734
+})",1710,1654,96.72514619883042
 2002_2004,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -9106,50 +7654,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2468,98.13121272365805
+})",1710,1661,97.13450292397661
 2002_2004,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -9313,50 +7828,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2469,98.17097415506957
+})",1710,1662,97.19298245614036
 2002_2004,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -9520,50 +8002,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2462,97.89264413518886
+})",1710,1656,96.84210526315789
 2002_2004,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -9727,50 +8176,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2447,97.29622266401591
+})",1710,1638,95.78947368421052
 2002_2004,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -9934,50 +8350,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2428,96.54075546719682
+})",1710,1615,94.44444444444444
 2002_2004,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -10141,50 +8524,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2409,95.78528827037773
+})",1710,1593,93.15789473684211
 2002_2004,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2002_2004""
             }
           }
         }
@@ -10348,50 +8698,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2391,95.06958250497017
+})",1710,1568,91.69590643274854
 2005_2007,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -10555,50 +8872,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2430,96.62027833001989
+})",1666,1602,96.15846338535414
 2005_2007,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -10762,50 +9046,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2440,97.01789264413519
+})",1666,1612,96.75870348139256
 2005_2007,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -10969,50 +9220,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2448,97.33598409542743
+})",1666,1619,97.17887154861945
 2005_2007,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -11176,50 +9394,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2455,97.61431411530815
+})",1666,1621,97.29891956782714
 2005_2007,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -11383,50 +9568,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2452,97.49502982107356
+})",1666,1618,97.1188475390156
 2005_2007,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -11590,50 +9742,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2450,97.4155069582505
+})",1666,1613,96.81872749099641
 2005_2007,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -11797,50 +9916,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2445,97.21669980119285
+})",1666,1601,96.0984393757503
 2005_2007,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -12004,50 +10090,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2432,96.69980119284294
+})",1666,1581,94.89795918367348
 2005_2007,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -12211,50 +10264,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2409,95.78528827037773
+})",1666,1557,93.45738295318127
 2005_2007,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2005_2007""
             }
           }
         }
@@ -12418,50 +10438,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2393,95.14910536779324
+})",1666,1535,92.13685474189676
 2008_2010,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -12625,50 +10612,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2448,97.33598409542743
+})",1662,1611,96.93140794223827
 2008_2010,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -12832,50 +10786,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2455,97.61431411530815
+})",1662,1612,96.9915764139591
 2008_2010,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -13039,50 +10960,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2463,97.9324055666004
+})",1662,1617,97.29241877256317
 2008_2010,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -13246,50 +11134,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2468,98.13121272365805
+})",1662,1622,97.59326113116727
 2008_2010,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -13453,50 +11308,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2466,98.05168986083498
+})",1662,1619,97.41275571600482
 2008_2010,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -13660,50 +11482,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2458,97.73359840954274
+})",1662,1610,96.87123947051745
 2008_2010,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -13867,50 +11656,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2448,97.33598409542743
+})",1662,1597,96.08904933814682
 2008_2010,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -14074,50 +11830,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2435,96.81908548707754
+})",1662,1577,94.88567990373045
 2008_2010,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -14281,50 +12004,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2414,95.98409542743539
+})",1662,1556,93.62214199759326
 2008_2010,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2008_2010""
             }
           }
         }
@@ -14488,50 +12178,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2401,95.46719681908549
+})",1662,1536,92.4187725631769
 2011_2013,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -14695,50 +12352,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2437,96.8986083499006
+})",1664,1608,96.63461538461539
 2011_2013,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -14902,50 +12526,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2449,97.37574552683897
+})",1664,1613,96.93509615384616
 2011_2013,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -15109,50 +12700,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2463,97.9324055666004
+})",1664,1617,97.17548076923077
 2011_2013,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -15316,50 +12874,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2474,98.36978131212723
+})",1664,1614,96.9951923076923
 2011_2013,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -15523,50 +13048,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2476,98.4493041749503
+})",1664,1617,97.17548076923077
 2011_2013,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -15730,50 +13222,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2468,98.13121272365805
+})",1664,1609,96.69471153846155
 2011_2013,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -15937,50 +13396,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2456,97.65407554671968
+})",1664,1593,95.73317307692307
 2011_2013,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -16144,50 +13570,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2444,97.17693836978131
+})",1664,1578,94.83173076923077
 2011_2013,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -16351,50 +13744,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2429,96.58051689860835
+})",1664,1552,93.26923076923077
 2011_2013,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2011_2013""
             }
           }
         }
@@ -16558,50 +13918,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2415,96.02385685884693
+})",1664,1530,91.94711538461539
 2014_2016,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -16765,50 +14092,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2424,96.3817097415507
+})",1358,1297,95.50810014727541
 2014_2016,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -16972,50 +14266,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2434,96.77932405566601
+})",1358,1307,96.24447717231223
 2014_2016,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -17179,50 +14440,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2448,97.33598409542743
+})",1358,1314,96.759941089838
 2014_2016,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -17386,50 +14614,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2459,97.77335984095427
+})",1358,1316,96.90721649484536
 2014_2016,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -17593,50 +14788,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2465,98.01192842942345
+})",1358,1313,96.68630338733432
 2014_2016,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -17800,50 +14962,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2459,97.77335984095427
+})",1358,1315,96.83357879234168
 2014_2016,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -18007,50 +15136,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2457,97.69383697813122
+})",1358,1308,96.3181148748159
 2014_2016,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -18214,50 +15310,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2449,97.37574552683897
+})",1358,1299,95.65537555228278
 2014_2016,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -18421,50 +15484,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2444,97.17693836978131
+})",1358,1285,94.62444771723122
 2014_2016,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2014_2016""
             }
           }
         }
@@ -18628,50 +15658,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2430,96.62027833001989
+})",1358,1277,94.03534609720177
 2017_2019,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -18835,50 +15832,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2445,97.21669980119285
+})",660,639,96.81818181818181
 2017_2019,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -19042,50 +16006,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2457,97.69383697813122
+})",660,641,97.12121212121212
 2017_2019,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -19249,50 +16180,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2460,97.8131212723658
+})",660,641,97.12121212121212
 2017_2019,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -19456,50 +16354,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2469,98.17097415506957
+})",660,644,97.57575757575758
 2017_2019,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -19663,50 +16528,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2475,98.40954274353876
+})",660,644,97.57575757575758
 2017_2019,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -19870,50 +16702,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2475,98.40954274353876
+})",660,642,97.27272727272728
 2017_2019,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -20077,50 +16876,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2467,98.09145129224652
+})",660,637,96.51515151515152
 2017_2019,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -20284,50 +17050,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2461,97.85288270377734
+})",660,633,95.9090909090909
 2017_2019,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -20491,50 +17224,17 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2447,97.29622266401591
+})",660,629,95.3030303030303
 2017_2019,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
     ""arguments"": {
       ""collection"": {
         ""functionInvocationValue"": {
-          ""functionName"": ""Collection.filter"",
+          ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
-            ""collection"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Collection.randomColumn"",
-                ""arguments"": {
-                  ""collection"": {
-                    ""functionInvocationValue"": {
-                      ""functionName"": ""Collection.loadTable"",
-                      ""arguments"": {
-                        ""tableId"": {
-                          ""constantValue"": ""users/wangjinzhulala/China_built_up/02_control_sample/02_zhongnan""
-                        }
-                      }
-                    }
-                  },
-                  ""columnName"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""seed"": {
-                    ""constantValue"": 101
-                  }
-                }
-              }
-            },
-            ""filter"": {
-              ""functionInvocationValue"": {
-                ""functionName"": ""Filter.lessThan"",
-                ""arguments"": {
-                  ""leftField"": {
-                    ""constantValue"": ""split""
-                  },
-                  ""rightValue"": {
-                    ""constantValue"": 0.25
-                  }
-                }
-              }
+            ""tableId"": {
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/03_sample_train_test_split/Grid_select_zhongnan_2017_2019""
             }
           }
         }
@@ -20698,4 +17398,4 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",2515,2435,96.81908548707754
+})",660,623,94.39393939393939
