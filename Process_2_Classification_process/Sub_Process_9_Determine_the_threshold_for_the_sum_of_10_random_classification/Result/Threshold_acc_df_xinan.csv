@@ -8,7 +8,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -172,7 +172,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6903,6869,99.50746052440968
 1990_1992,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -182,7 +182,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -346,7 +346,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6903,6882,99.69578444154715
 1990_1992,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -356,7 +356,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -520,7 +520,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6903,6886,99.75373026220484
 1990_1992,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -530,7 +530,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -694,7 +694,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6903,6897,99.91308126901347
 1990_1992,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -704,7 +704,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -868,7 +868,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6903,6893,99.8551354483558
 1990_1992,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -878,7 +878,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -1042,7 +1042,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6903,6887,99.76821671736926
 1990_1992,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1052,7 +1052,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -1216,7 +1216,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6903,6874,99.57989280023179
 1990_1992,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1226,7 +1226,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -1390,7 +1390,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6903,6859,99.36259597276546
 1990_1992,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1400,7 +1400,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -1564,7 +1564,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6903,6845,99.15978560046356
 1990_1992,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1574,7 +1574,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1990_1992""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1990_1992""
             }
           }
         }
@@ -1738,7 +1738,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6903,6829,98.92800231783283
 1993_1995,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1748,7 +1748,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -1912,7 +1912,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6874,99.55104996379434
 1993_1995,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -1922,7 +1922,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2086,7 +2086,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6905,6884,99.69587255611876
 1993_1995,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2096,7 +2096,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2260,7 +2260,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6905,6888,99.75380159304852
 1993_1995,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2270,7 +2270,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2434,7 +2434,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6905,6891,99.79724837074583
 1993_1995,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2444,7 +2444,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2608,7 +2608,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6905,6895,99.8551774076756
 1993_1995,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2618,7 +2618,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2782,7 +2782,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6905,6892,99.81173062997829
 1993_1995,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2792,7 +2792,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -2956,7 +2956,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6905,6881,99.65242577842145
 1993_1995,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -2966,7 +2966,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -3130,7 +3130,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,291,93.26923076923077
+})",6905,6872,99.52208544532947
 1993_1995,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -3140,7 +3140,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -3304,7 +3304,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,291,93.26923076923077
+})",6905,6854,99.26140477914555
 1993_1995,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -3314,7 +3314,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1993_1995""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1993_1995""
             }
           }
         }
@@ -3478,7 +3478,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,291,93.26923076923077
+})",6905,6836,99.00072411296162
 1996_1998,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -3488,7 +3488,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -3652,7 +3652,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6900,6869,99.55072463768116
 1996_1998,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -3662,7 +3662,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -3826,7 +3826,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6900,6881,99.72463768115942
 1996_1998,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -3836,7 +3836,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4000,7 +4000,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6900,6886,99.79710144927536
 1996_1998,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4010,7 +4010,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4174,7 +4174,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6900,6888,99.82608695652175
 1996_1998,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4184,7 +4184,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4348,7 +4348,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6900,6892,99.8840579710145
 1996_1998,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4358,7 +4358,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4522,7 +4522,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6900,6885,99.78260869565217
 1996_1998,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4532,7 +4532,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4696,7 +4696,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6900,6875,99.63768115942028
 1996_1998,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4706,7 +4706,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -4870,7 +4870,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6900,6859,99.40579710144928
 1996_1998,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -4880,7 +4880,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -5044,7 +5044,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6900,6849,99.26086956521739
 1996_1998,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5054,7 +5054,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1996_1998""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1996_1998""
             }
           }
         }
@@ -5218,7 +5218,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6900,6830,98.98550724637681
 1999_2001,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5228,7 +5228,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -5392,7 +5392,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6019,5995,99.60126266821732
 1999_2001,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5402,7 +5402,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -5566,7 +5566,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6019,6006,99.78401727861771
 1999_2001,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5576,7 +5576,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -5740,7 +5740,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6019,6007,99.80063133410866
 1999_2001,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5750,7 +5750,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -5914,7 +5914,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6019,6008,99.81724538959959
 1999_2001,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -5924,7 +5924,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6088,7 +6088,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6019,6010,99.8504735005815
 1999_2001,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6098,7 +6098,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6262,7 +6262,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6019,6006,99.78401727861771
 1999_2001,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6272,7 +6272,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6436,7 +6436,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6019,5994,99.58464861272637
 1999_2001,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6446,7 +6446,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6610,7 +6610,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6019,5980,99.35205183585313
 1999_2001,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6620,7 +6620,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6784,7 +6784,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6019,5971,99.20252533643462
 1999_2001,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6794,7 +6794,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_1999_2001""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_1999_2001""
             }
           }
         }
@@ -6958,7 +6958,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,288,92.3076923076923
+})",6019,5959,99.00315667054328
 2002_2004,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -6968,7 +6968,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -7132,7 +7132,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,294,94.23076923076923
+})",6021,5998,99.61800365387809
 2002_2004,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -7142,7 +7142,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -7306,7 +7306,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6007,99.76748048496927
 2002_2004,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -7316,7 +7316,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -7480,7 +7480,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6007,99.76748048496927
 2002_2004,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -7490,7 +7490,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -7654,7 +7654,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6010,99.81730609533301
 2002_2004,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -7664,7 +7664,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -7828,7 +7828,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6011,99.83391463212091
 2002_2004,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -7838,7 +7838,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -8002,7 +8002,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6006,99.75087194818137
 2002_2004,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8012,7 +8012,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -8176,7 +8176,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6021,6001,99.66782926424183
 2002_2004,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8186,7 +8186,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -8350,7 +8350,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6021,5989,99.46852682278691
 2002_2004,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8360,7 +8360,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -8524,7 +8524,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6021,5975,99.2360073077562
 2002_2004,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8534,7 +8534,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2002_2004""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2002_2004""
             }
           }
         }
@@ -8698,7 +8698,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6021,5965,99.06992193987709
 2005_2007,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8708,7 +8708,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -8872,7 +8872,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6232,6215,99.72721437740694
 2005_2007,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -8882,7 +8882,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9046,7 +9046,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6232,6218,99.77535301668806
 2005_2007,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9056,7 +9056,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9220,7 +9220,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6232,6221,99.82349165596919
 2005_2007,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9230,7 +9230,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9394,7 +9394,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6232,6225,99.88767650834403
 2005_2007,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9404,7 +9404,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9568,7 +9568,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,293,93.91025641025641
+})",6232,6224,99.87163029525033
 2005_2007,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9578,7 +9578,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9742,7 +9742,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6232,6220,99.80744544287549
 2005_2007,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9752,7 +9752,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -9916,7 +9916,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6232,6214,99.71116816431322
 2005_2007,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -9926,7 +9926,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -10090,7 +10090,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,292,93.58974358974359
+})",6232,6202,99.5186136071887
 2005_2007,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10100,7 +10100,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -10264,7 +10264,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,291,93.26923076923077
+})",6232,6190,99.32605905006419
 2005_2007,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10274,7 +10274,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2005_2007""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2005_2007""
             }
           }
         }
@@ -10438,7 +10438,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,290,92.94871794871796
+})",6232,6172,99.03722721437741
 2008_2010,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10448,7 +10448,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -10612,7 +10612,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,300,96.15384615384616
+})",6905,6875,99.56553222302679
 2008_2010,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10622,7 +10622,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -10786,7 +10786,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6885,99.7103548153512
 2008_2010,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10796,7 +10796,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -10960,7 +10960,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6891,99.79724837074583
 2008_2010,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -10970,7 +10970,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -11134,7 +11134,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6889,99.76828385228096
 2008_2010,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -11144,7 +11144,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -11308,7 +11308,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6896,99.86965966690803
 2008_2010,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -11318,7 +11318,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -11482,7 +11482,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6891,99.79724837074583
 2008_2010,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -11492,7 +11492,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -11656,7 +11656,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6883,99.68139029688632
 2008_2010,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -11666,7 +11666,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -11830,7 +11830,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6878,99.60897900072412
 2008_2010,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -11840,7 +11840,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -12004,7 +12004,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6905,6867,99.44967414916727
 2008_2010,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12014,7 +12014,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2008_2010""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2008_2010""
             }
           }
         }
@@ -12178,7 +12178,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,295,94.55128205128204
+})",6905,6858,99.3193338160753
 2011_2013,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12188,7 +12188,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -12352,7 +12352,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,300,96.15384615384616
+})",6904,6866,99.44959443800695
 2011_2013,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12362,7 +12362,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -12526,7 +12526,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,300,96.15384615384616
+})",6904,6877,99.60892236384704
 2011_2013,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12536,7 +12536,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -12700,7 +12700,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6904,6885,99.72479721900348
 2011_2013,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12710,7 +12710,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -12874,7 +12874,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,299,95.83333333333334
+})",6904,6886,99.73928157589803
 2011_2013,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -12884,7 +12884,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13048,7 +13048,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6904,6889,99.7827346465817
 2011_2013,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13058,7 +13058,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13222,7 +13222,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6904,6886,99.73928157589803
 2011_2013,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13232,7 +13232,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13396,7 +13396,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6904,6884,99.71031286210892
 2011_2013,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13406,7 +13406,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13570,7 +13570,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6904,6877,99.60892236384704
 2011_2013,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13580,7 +13580,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13744,7 +13744,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6904,6864,99.42062572421784
 2011_2013,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13754,7 +13754,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2011_2013""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2011_2013""
             }
           }
         }
@@ -13918,7 +13918,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6904,6856,99.30475086906141
 2014_2016,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -13928,7 +13928,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14092,7 +14092,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,304,97.43589743589743
+})",6901,6871,99.56528039414577
 2014_2016,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14102,7 +14102,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14266,7 +14266,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,303,97.11538461538461
+})",6901,6876,99.63773366178815
 2014_2016,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14276,7 +14276,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14440,7 +14440,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,303,97.11538461538461
+})",6901,6882,99.72467758295899
 2014_2016,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14450,7 +14450,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14614,7 +14614,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,302,96.7948717948718
+})",6901,6883,99.73916823648746
 2014_2016,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14624,7 +14624,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14788,7 +14788,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,302,96.7948717948718
+})",6901,6885,99.76814954354441
 2014_2016,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14798,7 +14798,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -14962,7 +14962,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,301,96.47435897435898
+})",6901,6885,99.76814954354441
 2014_2016,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -14972,7 +14972,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -15136,7 +15136,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,301,96.47435897435898
+})",6901,6882,99.72467758295899
 2014_2016,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -15146,7 +15146,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -15310,7 +15310,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,300,96.15384615384616
+})",6901,6879,99.68120562237357
 2014_2016,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -15320,7 +15320,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -15484,7 +15484,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6901,6868,99.52180843356035
 2014_2016,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -15494,7 +15494,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2014_2016""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2014_2016""
             }
           }
         }
@@ -15658,7 +15658,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,296,94.87179487179486
+})",6901,6852,99.28995797710478
 2017_2019,0,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -15668,7 +15668,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -15832,7 +15832,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,299,95.83333333333334
+})",6902,6866,99.47841205447696
 2017_2019,1,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -15842,7 +15842,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16006,7 +16006,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,300,96.15384615384616
+})",6902,6881,99.69574036511156
 2017_2019,2,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16016,7 +16016,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16180,7 +16180,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,299,95.83333333333334
+})",6902,6888,99.79716024340772
 2017_2019,3,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16190,7 +16190,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16354,7 +16354,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,299,95.83333333333334
+})",6902,6891,99.84062590553464
 2017_2019,4,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16364,7 +16364,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16528,7 +16528,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6902,6892,99.85511445957694
 2017_2019,5,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16538,7 +16538,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16702,7 +16702,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6902,6887,99.7826716893654
 2017_2019,6,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16712,7 +16712,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -16876,7 +16876,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,298,95.51282051282051
+})",6902,6881,99.69574036511156
 2017_2019,7,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -16886,7 +16886,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -17050,7 +17050,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6902,6876,99.62329759490002
 2017_2019,8,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -17060,7 +17060,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -17224,7 +17224,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6902,6863,99.43494639235004
 2017_2019,9,"ee.FeatureCollection({
   ""functionInvocationValue"": {
     ""functionName"": ""Image.sampleRegions"",
@@ -17234,7 +17234,7 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
           ""functionName"": ""Collection.loadTable"",
           ""arguments"": {
             ""tableId"": {
-              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Grid_select_xinan_2017_2019""
+              ""constantValue"": ""users/wangjinzhulala/China_built_up/04_sample_train_test_split/Training_sample_xinan_2017_2019""
             }
           }
         }
@@ -17398,4 +17398,4 @@ Year,Threshold,Feature,Sample_size,Correct_num,Accuracy
       }
     }
   }
-})",312,297,95.1923076923077
+})",6902,6857,99.3480150680962
